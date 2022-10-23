@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+body {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  margin: 100px auto;
+  background-image: url("images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-color: hsl(225deg, 100%, 94%);
+}
+
+.card {
+  max-width: 450px;
+  text-align: center;
+  border: 1px solid hsl(225deg, 100%, 98%);
+  border-radius: 15px;
+  box-shadow: 5px 10px 5px hsl(230deg, 20%, 88%);
+  background-color: white;
+}
+.card img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.plan {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1rem;
+  grid-template-columns: 1fr 2fr 1fr;
+  background-color: hsl(225deg, 100%, 98%);
+  width: 80%;
+  margin: auto;
+  border-radius: 15px;
+}
+.plan img {
+  display: grid;
+  align-self: center;
+  justify-self: end;
+  margin: auto;
+}
+.plan a {
+  display: grid;
+  align-self: center;
+  font-weight: bold;
+}
+
+.plan-price {
+  text-align: left;
+}
+.plan-price h3 {
+  margin-bottom: 5px;
+}
+.plan-price p {
+  margin-top: 0px;
+  color: hsl(224deg, 23%, 55%);
+  font-weight: 600;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin: 25px 0 15px 0;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+.header h1 {
+  color: hsl(223deg, 47%, 23%);
+}
+
+.header p {
+  max-width: 300px;
+  margin-left: 70px;
+  color: hsl(224deg, 23%, 55%);
+}
+
+.proceed button {
+  margin-top: 25px;
+  background-color: hsl(245deg, 75%, 52%);
+  border-radius: 10px;
+  padding: 15px 0px 15px 0px;
+  width: 80%;
+  border: none;
+  font-weight: bold;
+  box-shadow: 5px 10px 5px hsl(225deg, 100%, 98%);
+}
+.proceed button a {
+  color: hsl(225deg, 100%, 98%);
+  text-decoration: none;
+}
+
+.cancel {
+  margin-top: 10px;
+}
+.cancel button {
+  background-color: hsl(0deg, 0%, 100%);
+  border-radius: 10px;
+  color: hsl(224deg, 23%, 55%);
+  font-weight: bold;
+  padding: 15px 0px 15px 0px;
+  width: 80%;
+  border: none;
+}
+.cancel a {
+  color: hsl(224deg, 23%, 55%);
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
